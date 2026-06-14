@@ -1,14 +1,8 @@
 # Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
-# server process.
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "default"
 title                    : "Junteng Liu"
 title_separator          : "-"
 name                     : &amp;name "Junteng Liu"
@@ -28,7 +22,6 @@ author:
   uri              :
   email            : "jliugi@connect.ust.hk"
 
-  # Academic websites
   academia         :
   arxiv            :
   googlescholar    : "https://scholar.google.com/citations?hl=en&amp;user=tbK9jl4AAAAJ&amp;view_op=list_works&amp;sortby=pubdate"
@@ -42,7 +35,6 @@ author:
   scopus           :
   zotero           :
 
-  # Repositories and software development
   bitbucket        :
   codepen          :
   dribbble         :
@@ -50,7 +42,6 @@ author:
   kaggle           :
   stackoverflow    :
 
-  # Social media
   artstation       :
   bluesky          :
   facebook         :
@@ -77,7 +68,6 @@ author:
   youtube          :
   zhihu            :
 
-# Publication Category - The following the list of publication categories and their headings
 publication_category:
   books:
     title: 'Books'
@@ -86,7 +76,6 @@ publication_category:
   conferences:
     title: 'Conference Papers'
 
-# Site Settings
 teaser                   :
 breadcrumbs              : false
 words_per_minute         : 160
@@ -123,15 +112,11 @@ atom_feed:
   hide                   : false
   path                   :
 
-
-# SEO Related
 google_site_verification :
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
 
-
-# Social Sharing
 twitter:
   username               : &amp;twitter
 facebook:
@@ -145,15 +130,11 @@ social:
   name                   :
   links:
 
-
-# Analytics
 analytics:
   provider               :  "false"
   google:
     tracking_id          :
 
-
-# Reading Files
 include:
   - .htaccess
   - _pages
@@ -191,16 +172,12 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
-# Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
-
-# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
@@ -211,8 +188,6 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-
-# These settings control the types of collections used by the template
 collections:
   teaching:
     output: true
@@ -227,10 +202,7 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-
-# These settings control how pages and collections are included in the site
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -241,14 +213,12 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
-  # _teaching
   - scope:
       path: ""
       type: teaching
@@ -257,7 +227,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _publications
   - scope:
       path: ""
       type: publications
@@ -266,7 +235,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
   - scope:
       path: ""
       type: portfolio
@@ -275,7 +243,6 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _talks
   - scope:
       path: ""
       type: talks
@@ -284,19 +251,13 @@ defaults:
       author_profile: true
       share: true
 
-
-# Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed
 
-
-# Outputting
 permalink: /:categories/:title/
 timezone: Etc/UTC
 
-
-# Plugins
 plugins:
   - jekyll-feed
   - jekyll-gist
@@ -305,7 +266,6 @@ plugins:
   - jekyll-redirect-from
   - jemoji
 
-# Mimic GitHub Pages with --safe
 whitelist:
   - jekyll-feed
   - jekyll-gist
@@ -314,8 +274,6 @@ whitelist:
   - jekyll-redirect-from
   - jemoji
 
-
-# Archives
 category_archive:
   type: liquid
   path: /categories/
@@ -323,8 +281,6 @@ tag_archive:
   type: liquid
   path: /tags/
 
-
-# HTML Compression
 compress_html:
   clippings: all
   ignore:
