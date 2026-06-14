@@ -5,8 +5,8 @@ locale                   : "en-US"
 site_theme               : "default"
 title                    : "Junteng Liu"
 title_separator          : "-"
-name                     : &amp;name "Junteng Liu"
-description              : &amp;description "Junteng Liu's academic homepage"
+name                     : "Junteng Liu"
+description              : "Junteng Liu's academic homepage"
 url                      : https://lauracer17.github.io
 baseurl                  : "/LJT-Homepage"
 repository               : "lauracer17/LJT-Homepage"
@@ -24,7 +24,7 @@ author:
 
   academia         :
   arxiv            :
-  googlescholar    : "https://scholar.google.com/citations?hl=en&amp;user=tbK9jl4AAAAJ&amp;view_op=list_works&amp;sortby=pubdate"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=tbK9jl4AAAAJ&view_op=list_works&sortby=pubdate"
   inspire-hep      :
   impactstory      :
   orcid            :
@@ -118,7 +118,7 @@ alexa_site_verification  :
 yandex_site_verification :
 
 twitter:
-  username               : &amp;twitter
+  username               : "junteng88716710"
 facebook:
   username               :
   app_id                 :
